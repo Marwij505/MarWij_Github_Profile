@@ -30,7 +30,7 @@
   </g>
   <path class="signal" d="M776 68V130 M730 197L673 239 M822 197L879 239" fill="none" stroke="#6ce5cb" stroke-width="2"/>
   <rect x="730" y="130" width="92" height="92" rx="24" fill="#112333" stroke="#6ce5cb" stroke-width="1.5"/>
-  <text x="776" y="189" text-anchor="middle" font-size="34" font-weight="600" letter-spacing="-2" fill="#eff5fa">mw.</text>
+  <text x="776" y="189" text-anchor="middle" font-size="34" font-weight="600" letter-spacing="-2" fill="#eff5fa">MW</text>
   <g fill="#0c1622" stroke="#263d4d">
     <rect x="717" y="40" width="118" height="34" rx="17"/>
     <rect x="614" y="237" width="118" height="34" rx="17"/>

@@ -54,7 +54,7 @@ def header(dark: bool, animated: bool) -> str:
   </g>
   <path class="signal" d="M776 68V130 M730 197L673 239 M822 197L879 239" fill="none" stroke="{accent}" stroke-width="2"/>
   <rect x="730" y="130" width="92" height="92" rx="24" fill="{panel}" stroke="{accent}" stroke-width="1.5"/>
-  <text x="776" y="189" text-anchor="middle" font-size="34" font-weight="600" letter-spacing="-2" fill="{ink}">mw.</text>
+  <text x="776" y="189" text-anchor="middle" font-size="34" font-weight="600" letter-spacing="-2" fill="{ink}">MW</text>
   <g fill="{bg}" stroke="{line}">
     <rect x="717" y="40" width="118" height="34" rx="17"/>
     <rect x="614" y="237" width="118" height="34" rx="17"/>
