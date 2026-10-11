@@ -1,8 +1,8 @@
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/header-dark-static.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/header-light-static.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img src="assets/header-light.svg" alt="Turning curiosity into practical solutions. Software, applications, and data." width="100%">
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/header-dark-static.svg?v=2">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/header-light-static.svg?v=2">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg?v=2">
+  <img src="assets/header-light.svg?v=2" alt="Turning curiosity into practical solutions. Software, applications, and data." width="100%">
 </picture>
 
 # Marcell Juniar Wijaya

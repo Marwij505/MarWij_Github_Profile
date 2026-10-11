@@ -59,6 +59,8 @@ python scripts/build_assets.py
 
 The generator uses only Python's standard library. Commit the generated SVGs along with the script so GitHub can display them directly.
 
+The README image URLs include a version parameter (currently `?v=2`). After changing a banner, increment this value on all four image references and commit the README alongside the assets. This gives the updated images new URLs when a browser or image cache still serves the previous version.
+
 ## Content grounding
 
 The project descriptions were checked against public repository READMEs and source structure on October 11, 2026:
