@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360" role="img" aria-labelledby="title desc">
+  <title id="title">Turning curiosity into practical solutions</title>
+  <desc id="desc">Marcell Juniar Wijaya. Software, applications, and data. A geometric network connects a central monogram with three technical disciplines.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#c5d8dc" stroke-width=".7" opacity=".4"/></pattern>
+    <linearGradient id="edge"><stop stop-color="#087e70"/><stop offset="1" stop-color="#8b6632"/></linearGradient>
+  </defs>
+  <style>
+    text { font-family: 'Segoe UI', Arial, sans-serif; }
+    .mono { font-family: Consolas, 'Courier New', monospace; }
+    
+      .signal { stroke-dasharray: 14 240; animation: travel 12s linear infinite; }
+      .halo { transform-origin: 776px 176px; animation: orbit 32s linear infinite; }
+      .glow { animation: breathe 8s ease-in-out infinite; }
+      @keyframes travel { to { stroke-dashoffset: -508; } }
+      @keyframes orbit { to { transform: rotate(360deg); } }
+      @keyframes breathe { 0%,100% { opacity: .35; } 50% { opacity: .9; } }
+      @media (prefers-reduced-motion: reduce) {
+        .signal, .halo, .glow { animation: none !important; }
+      }
+    
+  </style>
+  <rect x="1" y="1" width="998" height="358" rx="20" fill="#edf5f5" stroke="#c5d8dc"/>
+  <rect x="594" y="16" width="388" height="328" rx="14" fill="url(#grid)"/>
+  <path d="M42 1H380" stroke="url(#edge)" stroke-width="3"/>
+  <circle cx="48" cy="51" r="4" fill="#087e70"/>
+  <text x="64" y="57" font-size="17" letter-spacing="2" fill="#4c6575" class="mono">MARCELL JUNIAR WIJAYA</text>
+  <text x="44" y="130" font-size="56" font-weight="650" letter-spacing="-2" fill="#152c3b">Turning curiosity</text>
+  <text x="44" y="196" font-size="56" font-weight="650" letter-spacing="-2" fill="#152c3b">into practical</text>
+  <text x="44" y="262" font-size="56" font-weight="650" letter-spacing="-2" fill="#087e70">solutions.</text>
+  <text x="46" y="316" font-size="18" fill="#4c6575">SOFTWARE / APPLICATIONS / DATA</text>
+  <g fill="none" stroke="#c5d8dc" stroke-width="1.5">
+    <circle cx="776" cy="176" r="102"/>
+    <circle cx="776" cy="176" r="73" stroke-dasharray="2 8"/>
+    <path d="M776 68V130 M730 197L673 239 M822 197L879 239"/>
+  </g>
+  <g class="halo" fill="none" stroke="#087e70" opacity=".55">
+    <circle cx="776" cy="176" r="102" stroke-dasharray="45 596" stroke-width="2"/>
+    <circle cx="878" cy="176" r="4" fill="#087e70" stroke="#edf5f5" stroke-width="2"/>
+  </g>
+  <path class="signal" d="M776 68V130 M730 197L673 239 M822 197L879 239" fill="none" stroke="#087e70" stroke-width="2"/>
+  <rect x="730" y="130" width="92" height="92" rx="24" fill="#e2eeee" stroke="#087e70" stroke-width="1.5"/>
+  <text x="776" y="189" text-anchor="middle" font-size="34" font-weight="600" letter-spacing="-2" fill="#152c3b">mw.</text>
+  <g fill="#edf5f5" stroke="#c5d8dc">
+    <rect x="717" y="40" width="118" height="34" rx="17"/>
+    <rect x="614" y="237" width="118" height="34" rx="17"/>
+    <rect x="820" y="237" width="118" height="34" rx="17"/>
+  </g>
+  <g class="mono" fill="#4c6575" font-size="13" text-anchor="middle" letter-spacing="1">
+    <text x="776" y="62">SOFTWARE</text>
+    <text x="673" y="259">APPS</text>
+    <text x="879" y="259">DATA</text>
+  </g>
+  <circle class="glow" cx="928" cy="87" r="3" fill="#8b6632"/>
+  <path d="M612 99H622 M617 94V104 M917 310H927 M922 305V315" stroke="#4c6575" opacity=".6"/>
+</svg>
